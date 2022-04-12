@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+.title {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 5rem;
+  letter-spacing: -0.2px;
+  word-spacing: 0px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 2px #474747;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: rgb(173, 63, 251);
+  background: radial-gradient(
+    circle,
+    rgba(173, 63, 251, 1) 0%,
+    rgba(199, 85, 195, 1) 96%,
+    rgba(213, 70, 252, 1) 100%
+  );
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
