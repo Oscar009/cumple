@@ -13,8 +13,6 @@ function App() {
     elementCount: 200,
     duration: "10000",
     stagger: "35",
-    with: "200px",
-    height: "300px",
     perspective: "1000px",
     colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"],
   };
