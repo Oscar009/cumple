@@ -28,13 +28,6 @@
 }
 
 .App-header {
-  background: rgb(173, 63, 251);
-  background: radial-gradient(
-    circle,
-    rgba(173, 63, 251, 1) 0%,
-    rgba(199, 85, 195, 1) 96%,
-    rgba(213, 70, 252, 1) 100%
-  );
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
